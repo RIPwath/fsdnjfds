@@ -1,0 +1,361 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav,ul,ol,li{
+    list-style: none;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.header {
+    width: 100%;
+    height: 700px;
+    background-color: #EEEFF1;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 150px;
+}
+.logo img{
+    width: 96px;
+    height: 60px;
+}
+.logo {
+    transition: all .8s;
+}
+.logo:hover{
+    transform: rotate(360deg);
+}
+.header__menu {
+    margin: 0px 0px 0px 133px;
+    display: flex;
+}
+.menu__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.menu__item:not(:last-child){
+    margin: 0px 21px 0px 0px;
+}
+.menu__link {
+    color: #737373;
+    font-weight: 500;
+    font-size: 16px;
+}
+.menu__link__main{
+    color: #34547A;
+    font-weight: 500;
+    font-size: 16px;
+}
+.main__link:hover{
+    color: blue;
+}
+.menu__item a{
+    text-decoration: none;
+}
+
+.header__main__info {
+    height: 250px;
+    display: flex;
+    margin: 160px 50px;
+    align-items: center;
+
+}
+.header__main__img {
+    width: 357px;
+    height: 233.7px;
+    margin: 0px 131px 0px 0px;
+}
+.header__main__text {
+}
+.header__main__heading {
+    font-weight: 500px;
+    font-size: 48px;
+}
+.header__main__about {
+    font-size: 16px;
+    margin: 60px 0px;
+    color: #727272;
+    font-weight: 400;
+    line-height: 26.25px;
+}
+.header__main__writeme {
+    width: 225px;
+    height: 65px;
+    background-color: #34547A;
+    font-size: 16px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    text-align: center;
+    cursor: pointer;
+}
+.header__main__writeme:hover{
+    background-color: #4a678b;
+}
+.header__main__writeme a {
+    text-decoration: none;
+    color: white;
+}
+.header__main__writeme a:hover{
+    color:cornsilk;
+}
+
+.about__main {
+    width: 100%;
+    height: 366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 110px 0px -30px 0px;
+}
+.about__main__company {
+    display: flex;
+    flex-direction: column;
+}
+.about__main__me {
+    font-size: 32px;
+    line-height: 37.5px;
+    margin: 0px 0px 50px 0px;
+    text-align: center;
+    font-weight: 500px;
+}
+.about__main__text {
+    width: 540px;
+    font-size: 16px;
+    font-weight: 400px;
+    line-height: 26.25px;
+    color: #727272;
+    text-align: center;
+}
+
+.projects__main {
+    width: 100%;
+    height: 250px;
+    background-color: #34547A;
+    display: flex;
+}
+.project__container{
+    display: flex;
+    width: 100%;
+}
+.projects__all__main {
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.project__about__img {
+}
+.about__ff{
+    margin: 0px 20px;
+    color: white;
+}
+.project__about__main {
+    font-size: 21px;
+}
+.project__about__text {
+    font-size: 16px;
+}
+
+.myskills__main {
+    width: 100%;
+    height: 653px;
+}
+.myskills__main__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+.myskills__main__skills {
+    margin-right: 150px;
+}
+.myskills__ss {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.myskills__skill {
+    margin: 20px 0px;
+}
+.myskills__skill__text {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+}
+.myskills__skill__progress {
+    width: 445px;
+	height: 10px;
+}
+.myskills__photo img{
+    width: 555px;
+    height: 450px;
+}
+
+.howimworking__main {
+    background-color: #EEEFF1;
+}
+.howimworking__main__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+}
+.howimworking__main__heading {
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+.howimworking__main__text {
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    width: 540px;
+    margin-bottom: 57px;
+
+}
+.howimworking__main__video img{
+    width: 1110px;
+    height: 600px;
+}
+
+.photo__main {
+    margin: 28px 0px 0px 0px;
+}
+.photo__main__container {
+}
+.photo__main__cnt {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.photo__main__ph{
+    background-color: #34547ACC;
+    width: 330px;
+    height: 330px;
+}
+.photo__main__ph__img{
+    width: 330px;
+    height: 330px;
+}
+.photo__main__ph__img:hover{
+    opacity: 0.2;
+    transition: all .3s;
+}
+
+.photo__main__microsoft {
+    display: flex;
+    margin: 30px;
+    justify-content: center;
+}
+
+.wantwebsite__main {
+    background-color: #EEEFF1;
+}
+.wantwebsite__main__container {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.wantwebsite__main__text {
+}
+.wantwebsite__main__heading {
+    font-size: 32px;
+    font-weight: 500;
+}
+.wantwebsite__main__info {
+    margin: 50px 0px 65px 0px;
+    width: 540px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+}
+.wantwebsite__main__input__top {
+    display: flex;
+    margin: 20px;
+}
+.wantwebsite__main__input__name {
+    margin-right: 30px;
+}
+.wantwebsite__main__input input{
+    width: 255px;
+    height: 50px;
+    background-color: white;
+    border: none;
+    padding: 0px 0px 0px 20px;
+}
+.wantwebsite__main__input__email {
+}
+.wantwebsite__main__input__bottom {
+    display: flex;
+}
+.wantwebsite__main__input__text textarea{
+    width: 540px;
+    height: 175px;
+    background-color: white;
+    border: none;
+    padding: 17px 0px 0px 20px;
+    margin-bottom: 50px;
+}
+.wantwebsite__main__button button{
+    width: 195px;
+    height: 55px;
+    text-align: center;
+    color: white;
+    border: none;
+    background-color: #34547A;
+}
+.wantwebsite__main__button button:hover{
+    cursor: pointer;
+}
+
+.wantwebsite__main__button button:hover{
+    background-color: #4a678b;
+    color:cornsilk;
+}
+
+.contacts__main {
+}
+.contacts__main__container {
+    background-color: #34547A;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.contacts__main__text {
+    display: flex;
+    flex-direction: column;
+    margin-right: 757px;
+}
+.contacts__main__name {
+    font-size: 21px;
+    font-weight: 500;
+    color: white;
+    margin-bottom: 20px;
+}
+.contacts__main__copyright {
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+}
+.contacts__main__logo {
+    display: flex;
+}
+.contacts__main__logo__vk { 
+    margin: 22px;
+}
